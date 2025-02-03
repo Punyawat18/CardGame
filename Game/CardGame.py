@@ -23,7 +23,9 @@ except FileNotFoundError:
         round_count = 1
         f.write(str(round_count))
 
-logging_destination = open(f'{logging_path}/{round_count}.json', 'w')
+#create log file
+with open(f'{logging_path}/{round_count}.json', 'w') as f:
+    pass
 
 attack_card_name = ["Charge", "Punch", "Strike", "Slash", "Stab", "Fireball", "Lightning Bolt", "Ice Shard", "Wind Blade", "Earthquake"]
 defense_card_name = ["Block", "Dodge", "Parry", "Deflect", "Absorb", "Reflect", "Counter", "Barrier", "Guardian", "Shield"]
@@ -171,13 +173,6 @@ def Turn(player, enemy):
 
     action = None
     while True:
-            #debug
-        print("DEBUG")
-        print(len(player.hand))
-        print(len(player.used))
-        print(len(player.discarded))
-        print(len(player.deck))
-        print("DEBUG")
 
         logging(player, enemy)
         action = int(input("Choose an action: 1(Play), 2(Discard), 3(End Turn), 4(Check Status of Both Player)\n"))
@@ -224,17 +219,47 @@ def Turn(player, enemy):
     print(f'You({player})')
     print(f'Enemy({enemy})')
 
+def enemy_turn(player, enemy):
+    print(f"{enemy.name}'s turn")
+    enemy.energy = 5
+    enemy.draw()
+    end_using = False
+    logging(player, enemy)
+    while enemy.energy > 0:
+        not_played = 0
+        for card in enemy.hand:
+            if card.cost <= enemy.energy:
+                if card.type == "attack":
+                    player.take_damage(card.point_value)
+                elif card.type == "defense":
+                    enemy.defend(card.card_id)
+                elif card.type == "heal":
+                    enemy.healing(card.card_id)
+                print(f"{enemy.name} played {card.name}")
+                enemy.play(card.card_id)
+                break
+            else:
+                not_played += 1
+                if not_played == len(enemy.hand):
+                    end_using = True
+                    break
+        if end_using:
+            break
 
+        if len(enemy.deck) <= 5:
+            enemy.discard(random.choice(enemy.used).card_id)
+        
+        #end turn
+        print("End of turn\n")
+        break
 
 def logging(player, enemy):
     player_hand = {}
     for card in player.hand:
         player_hand.update(card.show())
-
     player_used = {}
     for card in player.used:
         player_used.update(card.show())
-
     player_discarded = {}
     for card in player.discarded:
         player_discarded.update(card.show())
@@ -248,9 +273,8 @@ def logging(player, enemy):
         "used": player_used,
         "discarded": player_discarded
     }
-    print(player_dict)
-    json.dump(player_dict, logging_destination)
-    print("Player logged")
+    with open(f'{logging_path}/{round_count}.json', 'a') as f:
+        f.write(json.dumps(player_dict, indent=4))
 
 
 def main():
@@ -259,7 +283,7 @@ def main():
     Enemy = Player("Kurayami", Create_deck())
     while True:
         Turn(You, Enemy)
-        Turn(Enemy, You)
+        enemy_turn(You, Enemy)
         if You.health <= 0:
             print("You lose")
             break

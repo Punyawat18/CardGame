@@ -1,0 +1,15 @@
+{
+    "name": "Hoshisora",
+    "health": 30,
+    "defense": 0,
+    "energy": 5,
+    "hand": {
+        "name": "Cure",
+        "cost": 1,
+        "type": "heal",
+        "point_value": 5,
+        "card_id": 26
+    },
+    "used": {},
+    "discarded": {}
+}
