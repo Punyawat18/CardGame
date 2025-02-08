@@ -1,0 +1,835 @@
+{
+    "Game_Data": [
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Whose_Move": "player",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 2,
+                        "hand": [
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 2,
+                "Whose_Move": "player",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 36,
+                        "defense": 0,
+                        "energy": 1,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 36,
+                        "defense": 0,
+                        "energy": 1,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 1,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 2,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 14
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            },
+                            {
+                                "name": "Elixir",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 28
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 2,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 14
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 5,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            },
+                            {
+                                "name": "Elixir",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 28
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 3,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 14
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 27,
+                        "defense": 5,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            },
+                            {
+                                "name": "Elixir",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 28
+                            },
+                            {
+                                "name": "Lightning Bolt",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 5,
+                                "card_id": 7
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 3,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Whose_Move": "enemy",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Earthquake",
+                                "cost": 2,
+                                "type": "attack",
+                                "point_value": 10,
+                                "card_id": 10
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Stab",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 5
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 14
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 6,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 34,
+                        "defense": 5,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 8,
+                                "card_id": 1
+                            },
+                            {
+                                "name": "Salve",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 8,
+                                "card_id": 29
+                            },
+                            {
+                                "name": "Elixir",
+                                "cost": 2,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 28
+                            },
+                            {
+                                "name": "Lightning Bolt",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 5,
+                                "card_id": 7
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Recover",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 23
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        }
+    ]
+}

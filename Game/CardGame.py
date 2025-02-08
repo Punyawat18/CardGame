@@ -150,30 +150,22 @@ def restore_game_state(player, enemy, game_number, turn, move):
         ## enumerate turn
         for turn_data in log_data["Game_Data"]:
             ## check if turn is the same
-            try:
-                if turn_data["Turn_Count"] == turn:
-                    print(turn_data)
-                    for move_data in turn_data["Turn_Data"]:
-                        print(move_data["Move_Count"])
-                        try:
-                            if move_data["Move_Count"] == move:
-                                player.health = move_data["Move_Data"]["player"]["health"]
-                                player.defense = move_data["Move_Data"]["player"]["defense"]
-                                player.energy = move_data["Move_Data"]["player"]["energy"]
-                                player.hand = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["hand"]]
-                                player.used = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["used"]]
-                                player.discarded = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["discarded"]]
+            if turn_data["Turn_Count"] == turn:
+                for move_data in turn_data["Turn_Data"]:
+                    if move_data["Move_Count"] == move:
+                        player.health = move_data["Move_Data"]["player"]["health"]
+                        player.defense = move_data["Move_Data"]["player"]["defense"]
+                        player.energy = move_data["Move_Data"]["player"]["energy"]
+                        player.hand = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["hand"]]
+                        player.used = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["used"]]
+                        player.discarded = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["player"]["discarded"]]
 
-                                enemy.health = move_data["Move_Data"]["enemy"]["health"]
-                                enemy.defense = move_data["Move_Data"]["enemy"]["defense"]
-                                enemy.energy = move_data["Move_Data"]["enemy"]["energy"]
-                                enemy.hand = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["hand"]]
-                                enemy.used = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["used"]]
-                                enemy.discarded = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["discarded"]]
-                        except:
-                            pass
-            except:
-                pass
+                        enemy.health = move_data["Move_Data"]["enemy"]["health"]
+                        enemy.defense = move_data["Move_Data"]["enemy"]["defense"]
+                        enemy.energy = move_data["Move_Data"]["enemy"]["energy"]
+                        enemy.hand = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["hand"]]
+                        enemy.used = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["used"]]
+                        enemy.discarded = [Card(card["name"], card["cost"], card["type"], card["point_value"], card["card_id"]) for card in move_data["Move_Data"]["enemy"]["discarded"]]
 
 
 
@@ -205,11 +197,13 @@ def show_rewind_options():
                 if turn_choice < 1 or turn_choice > log_data["Game_Data"][-1]["Turn_Count"]:
                     print("Invalid turn choice.")
                     return None
-                move_choice = int(input(f'Choose a move to rewind to from 1 to {log_data["Game_Data"][turn_choice - 1]["Turn_Data"]["Move_Count"]}: '))
-                if move_choice < 1 or move_choice > log_data["Game_Data"][turn_choice - 1]["Turn_Data"]["Move_Count"]:
-                    print("Invalid move choice.")
-                    return None
-                return [game_choice, turn_choice, move_choice]
+                for turn_data in log_data["Game_Data"]:
+                    if turn_data["Turn_Count"] == turn_choice:
+                        move_choice = int(input(f'Choose a move to rewind to from 0 to {turn_data["Turn_Data"][-1]["Move_Count"]}: '))
+                        if move_choice < 0 or move_choice > int(turn_data["Turn_Data"][-1]["Move_Count"]):
+                            print("Invalid move choice.")
+                            return None
+                    return [game_choice, turn_choice, move_choice]
 
 def Turn(player, enemy):
     global turn_count, move_count, Whose_move
@@ -259,8 +253,7 @@ def Turn(player, enemy):
             print(f'You({player})')
             print(f'Enemy({enemy})')
         elif action == 5:
-            print("Temporarily disabled")
-            continue
+
             rewind_choice = None
             #debugging
             while rewind_choice == None:
@@ -350,27 +343,38 @@ def logging(player, enemy, turn_count, move_count):
         if "Game_Data" not in log_data:
             log_data["Game_Data"] = [{
                 "Turn_Count": turn_count,
-                "Turn_Data": {
+                "Turn_Data": [{
                     "Move_Count": move_count,
                     "Whose_Move": Whose_move,
                     "Move_Data": {
                         "player": player_dict,
                         "enemy": enemy_dict
                     }
-                }
+                }]
             }]
         else:
-            log_data["Game_Data"].append({
-                "Turn_Count": turn_count,
-                "Turn_Data": {
-                    "Move_Count": move_count,
-                    "Whose_Move": Whose_move,
-                    "Move_Data": {
-                        "player": player_dict,
-                        "enemy": enemy_dict
-                    }
-                }
-            })
+            if turn_count not in [turn_data["Turn_Count"] for turn_data in log_data["Game_Data"]]:
+                log_data["Game_Data"].append({
+                    "Turn_Count": turn_count,
+                    "Turn_Data": [{
+                        "Move_Count": move_count,
+                        "Whose_Move": Whose_move,
+                        "Move_Data": {
+                            "player": player_dict,
+                            "enemy": enemy_dict
+                        }
+                    }]
+                })
+            else:
+                if turn_count == log_data["Game_Data"][-1]["Turn_Count"]:
+                    log_data["Game_Data"][-1]["Turn_Data"].append({
+                        "Move_Count": move_count,
+                        "Whose_Move": Whose_move,
+                        "Move_Data": {
+                            "player": player_dict,
+                            "enemy": enemy_dict
+                        }})
+
         f.seek(0)
         json.dump(log_data, f, indent=4)
 

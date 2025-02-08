@@ -1,0 +1,1683 @@
+{
+    "Game_Data": [
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 2,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 2,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 6,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 3,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 6,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 3,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 12,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 4,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 12,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 4,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 28,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 12,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 5,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 28,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 12,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 5,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 28,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 21,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 6,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 28,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 21,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 1,
+                                "card_id": 25
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 6,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 26,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 21,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 1,
+                                "card_id": 25
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 7,
+            "Turn_Data": {
+                "Move_Count": 0,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 26,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 37,
+                        "defense": 21,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            },
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 1,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 1
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 7,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 26,
+                        "defense": 0,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Barrier",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 2,
+                                "card_id": 18
+                            },
+                            {
+                                "name": "Fireball",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 6
+                            },
+                            {
+                                "name": "Parry",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 13
+                            },
+                            {
+                                "name": "Deflect",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 4,
+                                "card_id": 14
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 4,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 41,
+                        "defense": 21,
+                        "energy": 5,
+                        "hand": [
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Dodge",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 7,
+                                "card_id": 12
+                            },
+                            {
+                                "name": "Renew",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 1,
+                                "card_id": 25
+                            },
+                            {
+                                "name": "Charge",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 3,
+                                "card_id": 1
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Bandage",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 7,
+                                "card_id": 30
+                            },
+                            {
+                                "name": "Shield",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 20
+                            },
+                            {
+                                "name": "Block",
+                                "cost": 3,
+                                "type": "defense",
+                                "point_value": 6,
+                                "card_id": 11
+                            },
+                            {
+                                "name": "Wind Blade",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 9
+                            },
+                            {
+                                "name": "Counter",
+                                "cost": 2,
+                                "type": "defense",
+                                "point_value": 9,
+                                "card_id": 17
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Regenerate",
+                                "cost": 3,
+                                "type": "heal",
+                                "point_value": 4,
+                                "card_id": 22
+                            }
+                        ],
+                        "discarded": []
+                    }
+                }
+            }
+        }
+    ]
+}

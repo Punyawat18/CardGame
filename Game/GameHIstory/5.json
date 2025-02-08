@@ -1,0 +1,1431 @@
+{
+    "turns": [
+        {
+            "turn": 1,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 1,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 30,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 1,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "turn": 2,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 2,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 2,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 9,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "turn": 3,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 3,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 9,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 3,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 15,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "turn": 4,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 4,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 28,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 15,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 4,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 20,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 15,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "turn": 5,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 5,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 20,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 15,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Regenerate",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 3,
+                                        "card_id": 22
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 5,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 20,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 18,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Regenerate",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 3,
+                                        "card_id": 22
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "turn": 6,
+            "turn_data": {
+                "moves": [
+                    {
+                        "move_count": 0,
+                        "move_data": {
+                            "turn": 6,
+                            "move": 0,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 20,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 18,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    },
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Regenerate",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 3,
+                                        "card_id": 22
+                                    },
+                                    {
+                                        "name": "Slash",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 4,
+                                        "card_id": 4
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    },
+                    {
+                        "move_count": 1,
+                        "move_data": {
+                            "turn": 6,
+                            "move": 1,
+                            "player": {
+                                "name": "Hoshisora",
+                                "health": 18,
+                                "defense": 0,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Dodge",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 12
+                                    },
+                                    {
+                                        "name": "Recover",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 7,
+                                        "card_id": 23
+                                    },
+                                    {
+                                        "name": "Absorb",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 15
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 1,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Shield",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 7,
+                                        "card_id": 20
+                                    }
+                                ],
+                                "used": [],
+                                "discarded": []
+                            },
+                            "enemy": {
+                                "name": "Kurayami",
+                                "health": 30,
+                                "defense": 18,
+                                "energy": 5,
+                                "hand": [
+                                    {
+                                        "name": "Cure",
+                                        "cost": 1,
+                                        "type": "heal",
+                                        "point_value": 9,
+                                        "card_id": 26
+                                    },
+                                    {
+                                        "name": "Bandage",
+                                        "cost": 3,
+                                        "type": "heal",
+                                        "point_value": 2,
+                                        "card_id": 30
+                                    },
+                                    {
+                                        "name": "Regenerate",
+                                        "cost": 2,
+                                        "type": "heal",
+                                        "point_value": 3,
+                                        "card_id": 22
+                                    },
+                                    {
+                                        "name": "Slash",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 4,
+                                        "card_id": 4
+                                    }
+                                ],
+                                "used": [
+                                    {
+                                        "name": "Ice Shard",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 8
+                                    },
+                                    {
+                                        "name": "Block",
+                                        "cost": 2,
+                                        "type": "defense",
+                                        "point_value": 9,
+                                        "card_id": 11
+                                    },
+                                    {
+                                        "name": "Guardian",
+                                        "cost": 3,
+                                        "type": "defense",
+                                        "point_value": 6,
+                                        "card_id": 19
+                                    },
+                                    {
+                                        "name": "Earthquake",
+                                        "cost": 2,
+                                        "type": "attack",
+                                        "point_value": 8,
+                                        "card_id": 10
+                                    },
+                                    {
+                                        "name": "Counter",
+                                        "cost": 1,
+                                        "type": "defense",
+                                        "point_value": 3,
+                                        "card_id": 17
+                                    },
+                                    {
+                                        "name": "Strike",
+                                        "cost": 1,
+                                        "type": "attack",
+                                        "point_value": 2,
+                                        "card_id": 3
+                                    }
+                                ],
+                                "discarded": []
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

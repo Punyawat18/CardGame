@@ -1,15 +1,1 @@
-{
-    "name": "Hoshisora",
-    "health": 30,
-    "defense": 0,
-    "energy": 5,
-    "hand": {
-        "name": "Wind Blade",
-        "cost": 1,
-        "type": "attack",
-        "point_value": 7,
-        "card_id": 9
-    },
-    "used": {},
-    "discarded": {}
-}
+{}

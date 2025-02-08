@@ -1,0 +1,196 @@
+{
+    "Game_Data": [
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 1,
+                "Whose_Move": "player",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 40,
+                        "defense": 0,
+                        "energy": 4,
+                        "hand": [
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Absorb",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 15
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 10,
+                                "card_id": 27
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 30,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 2,
+                "Whose_Move": "player",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 40,
+                        "defense": 0,
+                        "energy": 1,
+                        "hand": [
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 8
+                            },
+                            {
+                                "name": "Absorb",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 15
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 10,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 2
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 24,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        },
+        {
+            "Turn_Count": 1,
+            "Turn_Data": {
+                "Move_Count": 3,
+                "Whose_Move": "player",
+                "Move_Data": {
+                    "player": {
+                        "name": "Hoshisora",
+                        "health": 40,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [
+                            {
+                                "name": "Absorb",
+                                "cost": 1,
+                                "type": "defense",
+                                "point_value": 5,
+                                "card_id": 15
+                            },
+                            {
+                                "name": "Strike",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 3
+                            }
+                        ],
+                        "used": [
+                            {
+                                "name": "Potion",
+                                "cost": 1,
+                                "type": "heal",
+                                "point_value": 10,
+                                "card_id": 27
+                            },
+                            {
+                                "name": "Punch",
+                                "cost": 3,
+                                "type": "attack",
+                                "point_value": 6,
+                                "card_id": 2
+                            },
+                            {
+                                "name": "Ice Shard",
+                                "cost": 1,
+                                "type": "attack",
+                                "point_value": 2,
+                                "card_id": 8
+                            }
+                        ],
+                        "discarded": []
+                    },
+                    "enemy": {
+                        "name": "Kurayami",
+                        "health": 22,
+                        "defense": 0,
+                        "energy": 0,
+                        "hand": [],
+                        "used": [],
+                        "discarded": []
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,392 @@
+{
+    "Game_Data": [
+        {
+            "Turn_Count": 1,
+            "Turn_Data": [
+                {
+                    "Move_Count": 1,
+                    "Whose_Move": "player",
+                    "Move_Data": {
+                        "player": {
+                            "name": "Hoshisora",
+                            "health": 33,
+                            "defense": 0,
+                            "energy": 4,
+                            "hand": [
+                                {
+                                    "name": "Cure",
+                                    "cost": 3,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 26
+                                },
+                                {
+                                    "name": "Recover",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 23
+                                },
+                                {
+                                    "name": "Deflect",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 4,
+                                    "card_id": 14
+                                },
+                                {
+                                    "name": "Bandage",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 7,
+                                    "card_id": 30
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Salve",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 3,
+                                    "card_id": 29
+                                }
+                            ],
+                            "discarded": []
+                        },
+                        "enemy": {
+                            "name": "Kurayami",
+                            "health": 30,
+                            "defense": 0,
+                            "energy": 0,
+                            "hand": [],
+                            "used": [],
+                            "discarded": []
+                        }
+                    }
+                },
+                {
+                    "Move_Count": 2,
+                    "Whose_Move": "player",
+                    "Move_Data": {
+                        "player": {
+                            "name": "Hoshisora",
+                            "health": 35,
+                            "defense": 0,
+                            "energy": 3,
+                            "hand": [
+                                {
+                                    "name": "Cure",
+                                    "cost": 3,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 26
+                                },
+                                {
+                                    "name": "Deflect",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 4,
+                                    "card_id": 14
+                                },
+                                {
+                                    "name": "Bandage",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 7,
+                                    "card_id": 30
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Salve",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 3,
+                                    "card_id": 29
+                                },
+                                {
+                                    "name": "Recover",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 23
+                                }
+                            ],
+                            "discarded": []
+                        },
+                        "enemy": {
+                            "name": "Kurayami",
+                            "health": 30,
+                            "defense": 0,
+                            "energy": 0,
+                            "hand": [],
+                            "used": [],
+                            "discarded": []
+                        }
+                    }
+                },
+                {
+                    "Move_Count": 3,
+                    "Whose_Move": "player",
+                    "Move_Data": {
+                        "player": {
+                            "name": "Hoshisora",
+                            "health": 35,
+                            "defense": 4,
+                            "energy": 1,
+                            "hand": [
+                                {
+                                    "name": "Cure",
+                                    "cost": 3,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 26
+                                },
+                                {
+                                    "name": "Bandage",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 7,
+                                    "card_id": 30
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Salve",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 3,
+                                    "card_id": 29
+                                },
+                                {
+                                    "name": "Recover",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 23
+                                },
+                                {
+                                    "name": "Deflect",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 4,
+                                    "card_id": 14
+                                }
+                            ],
+                            "discarded": []
+                        },
+                        "enemy": {
+                            "name": "Kurayami",
+                            "health": 30,
+                            "defense": 0,
+                            "energy": 0,
+                            "hand": [],
+                            "used": [],
+                            "discarded": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "Turn_Count": 2,
+            "Turn_Data": [
+                {
+                    "Move_Count": 0,
+                    "Whose_Move": "enemy",
+                    "Move_Data": {
+                        "player": {
+                            "name": "Hoshisora",
+                            "health": 35,
+                            "defense": 4,
+                            "energy": 1,
+                            "hand": [
+                                {
+                                    "name": "Cure",
+                                    "cost": 3,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 26
+                                },
+                                {
+                                    "name": "Bandage",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 7,
+                                    "card_id": 30
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Salve",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 3,
+                                    "card_id": 29
+                                },
+                                {
+                                    "name": "Recover",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 23
+                                },
+                                {
+                                    "name": "Deflect",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 4,
+                                    "card_id": 14
+                                }
+                            ],
+                            "discarded": []
+                        },
+                        "enemy": {
+                            "name": "Kurayami",
+                            "health": 30,
+                            "defense": 0,
+                            "energy": 5,
+                            "hand": [
+                                {
+                                    "name": "Earthquake",
+                                    "cost": 1,
+                                    "type": "attack",
+                                    "point_value": 7,
+                                    "card_id": 10
+                                },
+                                {
+                                    "name": "Regenerate",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 8,
+                                    "card_id": 22
+                                },
+                                {
+                                    "name": "Counter",
+                                    "cost": 1,
+                                    "type": "defense",
+                                    "point_value": 1,
+                                    "card_id": 17
+                                },
+                                {
+                                    "name": "Block",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 3,
+                                    "card_id": 11
+                                },
+                                {
+                                    "name": "Guardian",
+                                    "cost": 1,
+                                    "type": "defense",
+                                    "point_value": 10,
+                                    "card_id": 19
+                                }
+                            ],
+                            "used": [],
+                            "discarded": []
+                        }
+                    }
+                },
+                {
+                    "Move_Count": 1,
+                    "Whose_Move": "enemy",
+                    "Move_Data": {
+                        "player": {
+                            "name": "Hoshisora",
+                            "health": 32,
+                            "defense": 0,
+                            "energy": 1,
+                            "hand": [
+                                {
+                                    "name": "Cure",
+                                    "cost": 3,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 26
+                                },
+                                {
+                                    "name": "Bandage",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 7,
+                                    "card_id": 30
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Salve",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 3,
+                                    "card_id": 29
+                                },
+                                {
+                                    "name": "Recover",
+                                    "cost": 1,
+                                    "type": "heal",
+                                    "point_value": 2,
+                                    "card_id": 23
+                                },
+                                {
+                                    "name": "Deflect",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 4,
+                                    "card_id": 14
+                                }
+                            ],
+                            "discarded": []
+                        },
+                        "enemy": {
+                            "name": "Kurayami",
+                            "health": 30,
+                            "defense": 0,
+                            "energy": 5,
+                            "hand": [
+                                {
+                                    "name": "Regenerate",
+                                    "cost": 2,
+                                    "type": "heal",
+                                    "point_value": 8,
+                                    "card_id": 22
+                                },
+                                {
+                                    "name": "Counter",
+                                    "cost": 1,
+                                    "type": "defense",
+                                    "point_value": 1,
+                                    "card_id": 17
+                                },
+                                {
+                                    "name": "Block",
+                                    "cost": 2,
+                                    "type": "defense",
+                                    "point_value": 3,
+                                    "card_id": 11
+                                },
+                                {
+                                    "name": "Guardian",
+                                    "cost": 1,
+                                    "type": "defense",
+                                    "point_value": 10,
+                                    "card_id": 19
+                                }
+                            ],
+                            "used": [
+                                {
+                                    "name": "Earthquake",
+                                    "cost": 1,
+                                    "type": "attack",
+                                    "point_value": 7,
+                                    "card_id": 10
+                                }
+                            ],
+                            "discarded": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
